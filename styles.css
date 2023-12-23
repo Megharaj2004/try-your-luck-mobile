@@ -61,6 +61,6 @@ footer {
     background: #2c3e50;
     color: #ffffff;
     position: fixed;
-    bottom: 0;
+    bottom: 50px; /* Adjust as needed */
     width: 100%;
 }
