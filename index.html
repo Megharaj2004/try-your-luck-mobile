@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Try Your Luck Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="container">
+    <h1>Try Your Luck Game</h1>
+    <p>Guess the number between 1 and 10:</p>
+    <input type="number" id="userGuess" placeholder="Enter your guess" min="1" max="10">
+    <br>
+    <button onclick="checkGuess()">Check Your Luck</button>
+    <button onclick="restartGame()">Restart Game</button>
+    <p id="result"></p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
